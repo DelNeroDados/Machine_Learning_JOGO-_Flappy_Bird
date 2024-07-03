@@ -10,7 +10,7 @@ let frames = 0;
 const DEGREE = Math.PI/180;
 
 const sprite = new Image();
-sprite.src = 'img/sprite.png';
+sprite.src = 'sprite.png';
 
 const background = {
   sX: 0,
