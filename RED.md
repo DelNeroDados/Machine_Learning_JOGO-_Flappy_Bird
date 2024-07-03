@@ -5,14 +5,14 @@ Este roteiro ajudará você a criar um jogo estilo Flappy Bird com inteligência
 
 ### 1. Configuração Inicial
 
-1. **Criar o Canvas**
+1.1. **Criar o Canvas**
    - Obter o elemento do canvas do HTML e definir o contexto 2D.
    ```javascript
    const canvas = document.getElementById('game');
    const context = canvas.getContext('2d');
    ```
 
-2. **Definir Variáveis e Constantes do Jogo**
+1.2. **Definir Variáveis e Constantes do Jogo**
    - Definir o número total de pássaros, matriz de pássaros, contador de frames, constante de grau e a imagem do sprite.
    ```javascript
    let totalBirds = 250;
@@ -25,7 +25,7 @@ Este roteiro ajudará você a criar um jogo estilo Flappy Bird com inteligência
 
 ### 2. Criar o Fundo e o Chão
 
-3. **Configurar e Desenhar o Fundo**
+2.1 **Configurar e Desenhar o Fundo**
    - Definir as propriedades e o método de desenho para o fundo.
    ```javascript
    const background = {
@@ -37,7 +37,7 @@ Este roteiro ajudará você a criar um jogo estilo Flappy Bird com inteligência
    };
    ```
 
-4. **Configurar e Desenhar o Chão**
+2.2. **Configurar e Desenhar o Chão**
    - Definir as propriedades e os métodos de atualização e desenho para o chão.
    ```javascript
    const foreground = {
@@ -55,7 +55,7 @@ Este roteiro ajudará você a criar um jogo estilo Flappy Bird com inteligência
 
 ### 3. Criar os Tubos
 
-5. **Configurar e Desenhar os Tubos**
+3.1. **Configurar e Desenhar os Tubos**
    - Definir as propriedades e os métodos de atualização e desenho para os tubos.
    ```javascript
    const pipes = {
@@ -107,7 +107,7 @@ Este roteiro ajudará você a criar um jogo estilo Flappy Bird com inteligência
 
 ### 4. Criar os Pássaros
 
-6. **Configurar a Classe Bird**
+4.1. **Configurar a Classe Bird**
    - Definir as propriedades e os métodos de atualização, desenho e salto para os pássaros.
    ```javascript
    class Bird {
@@ -162,7 +162,7 @@ Este roteiro ajudará você a criar um jogo estilo Flappy Bird com inteligência
 
 ### 5. Exibir Informações do Jogo
 
-7. **Configurar e Desenhar Informações do Jogo**
+5.1. **Configurar e Desenhar Informações do Jogo**
    - Definir as propriedades e o método de desenho para exibir a pontuação, pássaros vivos, geração e recorde.
    ```javascript
    const information = {
@@ -190,7 +190,7 @@ Este roteiro ajudará você a criar um jogo estilo Flappy Bird com inteligência
 
 ### 6. Implementar a IA
 
-8. **Configurar e Criar a IA**
+6.1. **Configurar e Criar a IA**
    - Definir as classes e funções para a IA, incluindo a criação de genomas, ativação da rede neural, cruzamento e mutação.
    ```javascript
    let Architect = synaptic.Architect;
