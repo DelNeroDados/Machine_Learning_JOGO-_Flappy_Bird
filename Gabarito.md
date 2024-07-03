@@ -3,7 +3,6 @@
 Este roteiro ajudará você a criar um jogo estilo Flappy Bird com inteligência artificial para controlar os pássaros. Vamos dividir a classe `Genetic` em várias partes para facilitar o entendimento.
 
 ### 1. Função `constructor`
-
    ```javascript
    class Genetic {
      constructor(input, hidden, output) {
@@ -33,7 +32,6 @@ Este roteiro ajudará você a criar um jogo estilo Flappy Bird com inteligência
    - Fim do bloco de código da função construtora.
 
 ### 2. Função `createGenomes`
-
    ```javascript
      createGenomes(input, hidden, output) {
        while(genomes.length < totalBirds) {
@@ -43,6 +41,7 @@ Este roteiro ajudará você a criar um jogo estilo Flappy Bird com inteligência
        }
      }
    ```
+
 2.1. **createGenomes**:
    - Nome do método da classe `Genetic`.
 
@@ -81,7 +80,6 @@ Este roteiro ajudará você a criar um jogo estilo Flappy Bird com inteligência
     - Fim do bloco de código da função.
 
 ### 3. Função `activateNetwork`
-
    ```javascript
      activateNetwork(genome, input) {
        return genome.activate(input);
@@ -109,9 +107,7 @@ Este roteiro ajudará você a criar um jogo estilo Flappy Bird com inteligência
 3.6. **}**:
    - Fim do bloco de código da função.
 
-
 ### 4. Função `prepareCrossover`
-
    ```javascript
      prepareCrossover() {
        genomes = this.selectBestGenomes(2);
@@ -208,7 +204,6 @@ Este roteiro ajudará você a criar um jogo estilo Flappy Bird com inteligência
     - Fim do bloco de código da função.
 
 ### 5. Função `selectBestGenomes`
-
    ```javascript
      selectBestGenomes(selectN) {
        var selected = _.sortBy(genomes, 'score').reverse();
@@ -250,7 +245,6 @@ Este roteiro ajudará você a criar um jogo estilo Flappy Bird com inteligência
     - Fim do bloco de código da função.
 
 ### 6. Função `crossOver`
-
    ```javascript
      crossOver(netA, netB) {
        // Swap (50% prob.)
@@ -371,7 +365,6 @@ Este roteiro ajudará você a criar um jogo estilo Flappy Bird com inteligência
     - Fim do bloco de código da função.
 
 ### 8. Função `mutate`
-
    ```javascript
      mutate(net) {
        this.mutateDataKeys(net.neurons, 'bias', 0.3);
@@ -405,7 +398,6 @@ Este roteiro ajudará você a criar um jogo estilo Flappy Bird com inteligência
    - Fim do bloco de código da função.
 
 ### 9. Função `mutateDataKeys`
-
    ```javascript
      mutateDataKeys(a, key, mutationRate) {
        for (var k = 0; k < a.length; k++) {
@@ -452,6 +444,3 @@ Este roteiro ajudará você a criar um jogo estilo Flappy Bird com inteligência
 
 9.8. **}**:
    - Fim do bloco de código do loop.
-
-
-
