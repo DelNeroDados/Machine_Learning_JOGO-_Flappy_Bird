@@ -1,4 +1,4 @@
-## Roteiro para Implementar o Código
+## Roteiro para Implementar IA
 
 ### Introdução
 Vamos aprender a criar uma inteligência artificial (IA) que ensina um passarinho a jogar Flappy Bird usando Redes Neurais e Algoritmos Genéticos. Vamos seguir passos detalhados para escrever o código necessário.
