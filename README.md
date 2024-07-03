@@ -26,12 +26,3 @@ Cada geração consiste em 250 redes neurais (chamadas de genomas).
 
 ## Informações Importantes
 O treinamento da IA pode demorar um pouco e, às vezes, parecer que não está evoluindo. No entanto, com paciência e ao longo de várias gerações, a evolução será visível. Em testes, menos de 50 gerações foram necessárias para que a rede neural aprendesse a jogar bem.
-
-### Exemplos Visuais
-Veja a evolução da IA nas imagens abaixo:
-
-#### Versão 1.0
-<img alt="machine learning" title="machine learning" src="IA-print-v1.png" />
-
-#### Versão 2.0
-<img alt="machine learning" title="machine learning" src="IA-print-v2.png" />
