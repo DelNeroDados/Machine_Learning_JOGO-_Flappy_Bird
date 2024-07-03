@@ -31,7 +31,7 @@ O treinamento da IA pode demorar um pouco e, às vezes, parecer que não está e
 Veja a evolução da IA nas imagens abaixo:
 
 #### Versão 1.0
-<img alt="machine learning" title="machine learning" src=".github/IA-print-v1.png" />
+<img alt="machine learning" title="machine learning" src="IA-print-v1.png" />
 
 #### Versão 2.0
-<img alt="machine learning" title="machine learning" src=".github/IA-print-v2.png" />
+<img alt="machine learning" title="machine learning" src="IA-print-v2.png" />
